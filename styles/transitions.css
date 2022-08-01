@@ -1,0 +1,17 @@
+.transition-1 {
+    position:fixed;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    z-index:101;
+    transition:0.5s ease-out;
+    pointer-events:none;
+    background-color:#191E29;
+    opacity:0;
+}
+
+.transition-1.is-active {
+    opacity:1;
+    pointer-events:all;
+}

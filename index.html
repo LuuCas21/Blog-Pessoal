@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="author" content="Lucas Rosa de Souza">
+    <link rel="description" content="Esta é uma página onde procuro escrever artigos sobre linguagens de programação e tecnologia em geral">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="/styles/style.css">
+    <link rel="stylesheet" type="text/css" href="/styles/transitions.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <link rel="cannonical" href="https://lucassouzadev.netlify.app">
+    <meta name="google-site-verification" content="Seeun9vG0P2ac8eV29cD6PhRWs4FZAarROp5Tbl72Os" />
+    <title>Blog | Lucas Souza</title>
+</head>
+<body>
+    <!-- Add a transition element (a div for example, to act like a block) -->
+    <div class="transition transition-1 is-active"></div>
+<div id="container" class="w-100 h-100">
+    <div id="scroll_indicator" class="top-0 end-0"></div>
+<!-- Header -->
+<div id="navbar" class="w-100 h-auto d-flex justify-content-evenly">
+    <div id="dropdown_menu" class="w-25 h-auto">
+        <!--<button onclick="dropdown_1()" id="button_menu" type="button" class="fa fa-search border-0"></button>
+        <div id="dropdown_content" class="disappear_">
+            <form>
+                <input type="search" placeholder="Pesquisar conteúdos" required="require">
+            </form>
+        </div>-->
+    </div>
+    <div id="logo_navbar" class="w-100 h-auto m-0 m-auto">
+        <!--<div id="logo_1"></div>
+        <div id="logo_2"></div>-->
+        <img onclick="anchor_mainPage()" id="logo_anchor" class="modeLogo logo_1" src="/img/logo_header--7.png">
+    </div>
+    <div id="empty_div" class="w-25 h-auto">
+        <!--<img onclick="anchor_mainPage()" id="logo_anchor" style="display:none" class="h-100 w-100" src="/img/logo_header--3.png">-->
+        <!--<button class="fa fa-moon-o darkMode" onclick="changeMode('/styles/dark.css')"></button>--> <!--onclick="changeMode('/styles/dark.css')"-->
+        <!--<button class="fa fa-sun-o darkMode" onclick="changeMode('/styles/style.css')"></button>--> <!-- onclick="changeMode('/styles/style.css')" -->
+    </div>
+</div> 
+<!-- End Header -->
+
+<!-- Content -->
+<div id="content_body" class="w-100 h-100 mt-5 d-flex position-relative mb-5 content_body">
+    <div id="content" class="w-100 h-100 d-flex">
+        <!-- Segunda Página -->
+        
+        <div id="gallery_content" class="gallery_content gallery_content_2 offline w-75 h-100 m-0 m-auto d-flex flex-column">
+            <h2 id="title" class="fw-bold display-5 title">Artigos</h2>
+            <div id="gallery_article" class="w-100 h-50 d-flex justify-content-between mt-5">
+                <div id="image" class="w-75 h-auto">
+                    <img src="/img/article--7.png">
+                </div>
+                <div id="description" class="w-100 h-100 p-3">
+                    <h4 class="fw-bold lightText">Linux - Como atualizar e instalar aplicativos pelo Terminal</h4>
+
+                    <span class="lightText">Postado no dia 25 de julho de 2022</span>
+
+                    <p class="mt-4 fw-bold lightText">Neste post estarei ensinando, assim como demonstrando como atualizar e instalar aplicativos pelo terminal
+                    do linux, com apenas 2 comandos simples.
+                    </p>
+                </div>
+            </div>
+            <div id="gallery_article" class="w-100 h-50 d-flex justify-content-between mt-5">
+                <div id="image" class="w-75 h-auto">
+                    <img src="/img/article--8.png">
+                </div>
+                <div id="description" class="w-100 h-100 p-3">
+                    <h4 class="fw-bold lightText">Inglês - Como aumentar o vocabulário de forma eficiente?</h4>
+
+                    <span class="lightText">Postado no dia 25 de julho de 2022</span>
+
+                    <p class="mt-4 fw-bold lightText">No post de hoje quero ensinar os meus métodos que eu utilizo para aumentar meu vocabulário de forma mais eficiente no 
+                    idioma inglês.
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+            <!-- Segunda Página -->
+        <div id="gallery_content" class="gallery_content gallery_content_1 w-75 h-100 m-0 m-auto d-flex flex-column">
+            <h2 id="title" class="fw-bold display-5 title">Artigos</h2>
+            <div id="gallery_article" id="javascript_article" data-article="/artigos/stickyNavbar.html" class="gallery_article w-100 h-50 d-flex justify-content-between mt-5"> <!-- onclick="anchor_article_5()" -->
+                <div id="image" class="w-75 h-auto">
+                    <img class="image_" id="image_4" src="/img/article_2.png"> <!-- /img/javascript--article.png -->
+                </div>
+                <div id="description" class="w-100 h-100 p-3">
+                    <h4 class="fw-bold lightText">JavaScript - Barra de menu fixado com Javascript</h4>
+
+                    <span class="lightText">Postado no dia 24 de junho de 2022</span>
+
+                    <p class="mt-4 fw-bold lightText">No post de hoje irei ensinar como deixar o menu fixado, mais conhecido como <i>sticky Navbar,</i> usando o Javascript.</p>
+                </div>
+            </div>
+            <div id="gallery_article" id="html_article" data-article="/artigos/Limpeza no Linux.html" class="gallery_article w-100 h-50 d-flex justify-content-between mt-5"> <!-- onclick="anchor_article_4()" -->
+                <div id="image" class="w-75 h-auto">
+                    <img class="image_" id="image_1" src="/img/article_3.png"> <!-- /img/linux--article.png -->
+                </div>
+                <div id="description" class="w-100 h-100 p-3">
+                    <h4 class="fw-bold lightText">Linux - Como fazer limpeza no sistema ?</h4>
+
+                    <span class="lightText">Postado no dia 30 de abril de 2022</span>
+
+                    <p class="mt-4 fw-bold lightText">Neste post irei mostrar alguns comandos que servem para fazer limpeza e consequentemente liberar mais espaço no HD do sistema linux.
+                    São muito eficazes e podem substituir softwares que fazem todo o trabalho automático.
+                    </p>
+                </div>
+            </div>
+            <div id="gallery_article" id="html_article" data-article="/artigos/bootstrap -- classes básicas.html" class="gallery_article w-100 h-50 d-flex justify-content-between mt-5">
+                <div id="image" class="w-75 h-auto">
+                    <img class="image_" id="image_2" src="/img/article_4.png"> <!-- /img/bootstrap--article.png -->
+                </div>
+                <div id="description" class="w-100 h-100 p-3">
+                    <h4 class="fw-bold lightText">Bootstrap 5 - Classes básicas</h4>
+
+                    <span class="lightText" >Postado no dia 29 de abril de 2022</span>
+
+                    <p class="mt-4 fw-bold lightText">Neste post irei mostrar algumas classes de introdução para o Bootstrap. São classes bem básicas mas também que são bastante
+                    utilizadas na hora de estilizar textos dentro da página.</p>
+                </div>
+            </div>
+            <div id="gallery_article" id="html_article" data-article="/artigos/html - criar arquivo.html" class="gallery_article w-100 h-50 d-flex justify-content-between mt-5">
+                <div id="image" class="w-75 h-auto">
+                    <img class="image_" id="image_3" src="/img/article_5.png"> <!-- /img/html--article.png -->
+                </div>
+                <div id="description" class="w-100 h-100 p-3">
+                    <h4 class="fw-bold lightText">HTML - Como criar arquivo HTML ?</h4>
+
+                    <span class="lightText">Postado no dia 28 de abril de 2022</span>
+
+                    <p class="mt-4 fw-bold lightText">No post de hoje irei falar sobre as variáveis em Javascript. Variáveis é o primeiro assunto que estudamos em toda
+                    e qualquer linguagem de programação, e também vale a pena dominar bem os conceitos das variáveis pois a usamos com muita frequência na hora de programar.</p>
+                </div>
+            </div>
+            <div id="gallery_article" id="javascript_article" data-article="/artigos/javascript - variáveis.html" class="gallery_article w-100 h-50 d-flex justify-content-between mt-5">
+                <div id="image" class="w-75 h-auto">
+                    <img class="image_" id="image_4" src="/img/article_6.png"> <!-- /img/javascript--article.png -->
+                </div>
+                <div id="description" class="w-100 h-100 p-3">
+                    <h4 class="fw-bold lightText">JavaScript - Variáveis</h4>
+
+                    <span class="lightText">Postado no dia 28 de abril de 2022</span>
+
+                    <p class="mt-4 fw-bold lightText">No post de hoje irei falar sobre as variáveis em Javascript. Variáveis é o primeiro assunto que estudamos em toda
+                    e qualquer linguagem de programação, e também vale a pena dominar bem os conceitos das variáveis pois a usamos com muita frequência na hora de programar.</p>
+                </div>
+            </div>
+            <!--<div id="topBtn" class="mt-5 align-self-end"><button type="button" onclick="takeMeToTop()" id="button--2" class="fa fa-arrow-up fs-5"></button></div>-->
+            <!--<div class="pagination">
+                <ul>
+                    <li class="pag_btn pagSelected" data-page="1"><a href="#">1</a></li>
+                    <li class="pag_btn" data-page="2"><a href="#">2</a></li>
+                    <li class="pag_btn"><a href="#">3</a></li>
+                    <li class="pag_btn"><a href="#">4</a></li>
+                    <li class="pag_btn"><a href="#">5</a></li>
+                </ul>
+            </div>-->
+        </div>
+    <div class="w-75 h-auto m-0 m-auto d-flex flex-column pageButton">
+        <div id="topBtn" class="mt-5 align-self-end"><button type="button" onclick="takeMeToTop()" id="button--2" class="fa fa-long-arrow-up fs-5"></button></div>
+        <div class="pagination">
+            <ul>
+                <li class="pag_btn pagSelected" data-page="1"><a href="#" class="lightText">1</a></li>
+                <li class="pag_btn" data-page="2"><a href="#" class="lightText">2</a></li>
+                <!--<li class="pag_btn"><a href="#">3</a></li>
+                <li class="pag_btn"><a href="#">4</a></li>
+                <li class="pag_btn"><a href="#">5</a></li>-->
+            </ul>
+        </div>
+    </div>
+    </div>
+</div>
+
+<!-- Edit -->
+<!--
+<div id="pagination">
+    <div id="button_first">
+        <button class="prevBtn"><i class="fa fa-angle-left"></i> Anterior</button>
+    </div>
+    <div id="button_second">
+        <button class="nextBtn">Próxima <i class="fa fa-angle-right"></i></button>
+    </div>
+</div>
+-->
+<!-- End Content -->
+
+<!-- Footer -->
+<div id="footer" class="footer w-100 h-25">
+    <div id="footer_content" class="footer_content w-75 h-100">
+        <div class="w-100 h-auto contatos">
+            <p>© 2022</p>
+            
+            <p class="ms-3">Built by Lucas Souza</p>
+        </div>
+        <div class="icons w-100 h-auto">
+            <i onclick="linkedin_anchor()" class="fa fa-linkedin-square icon"></i>
+            <i onclick="github_anchor()" class="fa fa-github icon"></i>
+            <i onclick="instagram_anchor()" class="fa fa-instagram icon"></i>
+        </div>
+    </div>
+</div>
+<!-- End Footer -->
+<script src="/scripts/script.js"></script>
+<script src="/scripts/transition.js"></script>
+</div>
+</body>
+</html>
